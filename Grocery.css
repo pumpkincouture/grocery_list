@@ -1,0 +1,198 @@
+body{
+	background-color:rgba(320, 270, 100, .2);
+}
+
+.container{
+	max-width:100%;
+	margin:0 auto;
+}
+
+h3{
+	font-size:30px;
+	color:orange;
+	margin-left:30px;
+	font-family:garamond;
+}
+
+.groceries{
+	position:relative;
+	float:left;
+	width:700px;
+	height:400px;
+	max-width:100%;
+}
+
+.groceries ol{
+	display:inline;
+	color:transparent;
+	text-decoration:none;
+}
+
+.groceries li{
+	display:inline-block;
+	padding:5% 5%;
+	width:13%;
+	height:10%;
+	opacity:.4;
+	border:1px solid black;
+	margin-bottom:20px;
+}
+
+.groceries li:first-child{
+	margin-left:-10px;
+}
+
+.groceries li:nth-child(2){
+	margin-left:20px;
+}
+
+.groceries li:last-child{
+	margin-left:20px;
+}
+
+.fruits li:first-child{
+	background-image:url("images/apple.jpg");
+	background-size:cover;
+}
+
+.fruits li:nth-child(2){
+	background-image:url("images/bananas.jpg");
+	background-size:cover;
+}
+
+.fruits li:last-child{
+	background-image:url("images/oranges.jpg");
+	background-size:cover;
+}
+
+.drinks li:first-child{
+	background-image:url("images/bottled_water.jpg");
+	background-size:cover;
+}
+
+.drinks li:nth-child(2){
+	background-image:url("images/bottled_juice.jpg");
+	background-size:cover;
+}
+
+.drinks li:last-child{
+	background-image:url("images/coke_bottle.jpg");
+	background-size:cover;
+}
+
+.misc li:first-child{
+	background-image:url("images/cookies.jpg");
+	background-size:cover;
+	background-repeat:repeat-x;
+}
+
+.misc li:nth-child(2){
+	background-image:url("images/bread.jpg");
+	background-size:cover;
+	background-position:center;
+}
+
+.misc li:last-child{
+	background-image:url("images/pasta.jpg");
+	background-size:cover;
+	background-position:center;
+}
+
+.groceries li:hover{
+	opacity:.8;
+}
+
+li.ui-draggable-dragging{
+	border:2px solid orange;
+}
+
+.bag{
+	position:relative;
+	max-width:100%;
+	float:right;
+	margin-right:15%;
+	clear:right;
+}
+
+.bag img{
+	max-width:100%;
+}
+
+.bag p{
+	position:relative;
+	font-size:20px;
+	color:orange;
+	font-family:garamond;
+	margin-left:17%;
+}
+
+.register{
+	clear:left;
+	padding-top:10%;
+	width:700px;
+	float:left;
+}
+
+.register p{
+	position:relative;
+	background-color:black;
+	width:120px;
+	color:white;
+	margin-bottom:20%;
+	padding:5% 0;
+	right:270px;
+	text-align:center;
+	border-radius:10px;
+	float:right;
+}
+
+.register img{
+	position:relative;
+	max-width:100%;
+	margin-left:25%;
+	opacity:.7;
+	bottom:40px;
+	z-index:-1;
+}
+
+.list{
+	margin-top:5%;
+	max-width:100%;
+	float:right;
+	margin-right:20%;
+}
+
+.list p{
+	text-align:center;
+	font-size:15px;
+	font-family:monospace;
+	color:slategray;
+	position:relative;
+	left:47px;
+}
+
+.list ol{
+	border:2px solid black;
+	width:120px;
+	height:250px;
+	overflow:scroll;
+	position:relative;
+	margin-left:100px;
+	background-image:url("images/paper.png");
+}
+
+.list li{
+	position:relative;
+	right:30px;
+	padding-bottom:8px;
+	list-style:none;
+	color:black;
+	font-family:garamond;
+}
+
+.button{
+	position:relative;
+	background-color:orange;
+	color:white;
+	left:145px;
+}
